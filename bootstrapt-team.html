@@ -43,22 +43,22 @@
         </div>
     </nav>
 
-    <!-- ===================================================== 3. PROFILE CARD ===================================================== -->
+    <!-- 3. PROFILE CARD -->
     <section id="about" class="py-5 bg-white">
         <div class="container">
             <h2 class="text-center section-title"> My Profile </h2>
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-5">
                     <div class="card text-center shadow">
-                        <div class="card-body p-4"> <!-- Avatar --> <img src="https://i.pravatar.cc/150?img=12"
-                                alt="PHORS IM" class="profile-avatar mb-3"> <!-- Name -->
+                        <div class="card-body p-4">
+                            <img src="https://i.pravatar.cc/150?img=12" alt="PHORS IM" class="profile-avatar mb-3">
                             <h3 class="card-title"> PHORS IM </h3>
-                            <p class="text-muted"> Frontend Developer Student </p> <!-- Bio -->
+                            <p class="text-muted"> Frontend Developer Student </p>
                             <p class="card-text"> I am an IT student who loves web design, programming and modern
-                                technologies. </p> <!-- Badges -->
+                                technologies. </p>
                             <div class="mb-4"> <span class="badge rounded-pill bg-primary"> Student </span> <span
                                     class="badge rounded-pill bg-success"> Developer </span> <span
-                                    class="badge rounded-pill bg-dark"> Bootstrap </span> </div> <!-- Buttons -->
+                                    class="badge rounded-pill bg-dark"> Bootstrap </span> </div>
                             <button class="btn btn-outline-primary me-2"> <i class="bi bi-chat"></i> Message </button>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editProfileModal">
                                 <i class="bi bi-pencil"></i> Edit Profile </button>
@@ -69,17 +69,15 @@
         </div>
     </section>
 
-    <!-- ===================================================== 
-     4. EDIT PROFILE MODAL 
-     ===================================================== -->
+    <!-- 4. EDIT PROFILE MODAL  -->
     <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content"> <!-- Modal Header -->
+            <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="editProfileModalLabel"> Edit Profile </h5> <button type="button"
                         class="btn-close" data-bs-dismiss="modal"></button>
-                </div> <!-- Modal Body -->
+                </div>
                 <div class="modal-body">
                     <form>
                         <div class="mb-3"> <label class="form-label"> Full Name </label> <input type="text"
@@ -89,7 +87,7 @@
                         <div class="mb-3"> <label class="form-label"> Bio </label> <textarea class="form-control"
                                 rows="3">Frontend Developer Student</textarea> </div>
                     </form>
-                </div> <!-- Modal Footer -->
+                </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                         Close </button> <button type="button" class="btn btn-primary"> Save Changes </button> </div>
             </div>
